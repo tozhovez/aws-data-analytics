@@ -37,7 +37,7 @@ services:
       - trino-network
 
   druid-coordinator:
-    image: 'apache/druid:0.21.0'
+    image: 'apache/druid:31.0.1'
     container_name: druid-coordinator
     ports:
       - '8081:8081'
@@ -55,7 +55,7 @@ services:
       - trino-network
 
   druid-broker:
-    image: 'apache/druid:0.21.0'
+    image: 'apache/druid:31.0.1'
     container_name: druid-broker
     ports:
       - '8082:8082'
@@ -73,7 +73,7 @@ services:
       - trino-network
 
   druid-historical:
-    image: 'apache/druid:0.21.0'
+    image: 'apache/druid:31.0.1'
     container_name: druid-historical
     ports:
       - '8083:8083'
@@ -92,7 +92,7 @@ services:
       - trino-network
 
   druid-middlemanager:
-    image: 'apache/druid:0.21.0'
+    image: 'apache/druid:31.0.1'
     container_name: druid-middlemanager
     ports:
       - '8091:8091'
@@ -112,7 +112,7 @@ services:
       - trino-network
 
   druid-router:
-    image: 'apache/druid:0.21.0'
+    image: 'apache/druid:31.0.1'
     container_name: druid-router
     ports:
       - '8888:8888'
