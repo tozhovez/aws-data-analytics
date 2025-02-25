@@ -72,7 +72,7 @@ services:
       networks:
         - trino-network
   elasticsearch:
-      image: elasticsearch:7.13.3
+      image: elasticsearch:7.17.28
       container_name: es_amundsen
       ports:
           - 9200:9200
