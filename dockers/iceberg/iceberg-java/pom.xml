@@ -13,7 +13,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
-    <dep.iceberg.version>0.11.0</dep.iceberg.version>
+    <dep.iceberg.version>1.8.1</dep.iceberg.version>
   </properties>
 
   <dependencies>
